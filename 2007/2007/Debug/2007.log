@@ -1,0 +1,21 @@
+﻿Build started 28/03/2025 10:40:04.
+     1>Project "E:\cg\2007\2007\2007.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\2007.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt training.cpp
+         training.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\cg\2007\Debug\2007.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\2007.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\cg\2007\Debug\2007.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\cg\2007\Debug\2007.lib" /MACHINE:X86 Debug\training.obj
+         LINK : E:\cg\2007\Debug\2007.exe not found or not built by the last incremental link; performing full link
+         2007.vcxproj -> E:\cg\2007\Debug\2007.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\cg\2007\Debug\2007.exe;#1" /manifest Debug\2007.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\2007.unsuccessfulbuild".
+         Touching "Debug\2007.lastbuildstate".
+     1>Done Building Project "E:\cg\2007\2007\2007.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.93
